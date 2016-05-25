@@ -1,4 +1,3 @@
-#pragma hdrstop
 using namespace std;
 #include<string.h>
 #include <vector>
@@ -6,10 +5,6 @@ using namespace std;
 #include <stdexcept>
 #include <stdio.h>
 #include <openssl/des.h>
-
-#pragma argsused
-#define BUFSIZE 256
-#define CFBMODE 64
 class Des {
 public:
 	typedef vector<unsigned char> Bytes;
