@@ -1,10 +1,16 @@
-using namespace std;
-#include<string.h>
+#pragma hdrstop
+#include<istream>
+#include <string.h>
 #include <vector>
 #include <algorithm>
 #include <stdexcept>
 #include <stdio.h>
 #include <openssl/des.h>
+
+#pragma argsused
+#define BUFSIZE 256
+#define CFBMODE 64
+using namespace std;
 class Des {
 public:
 	typedef vector<unsigned char> Bytes;
